@@ -23,3 +23,11 @@ if `x%%2` returns `1`, x is an odd number.
 - you have an array `OS <- as.integer(runif(100, min = 1, max = 99))`
 - write a code to sum the odd numbers in `OS`
 - wirte a short code as you can do
+
+# Solution
+
+```{r}
+OS <- as.integer(runif(100, min = 1, max = 99))
+sum(OS[OS %% 2 == 1])
+```
+
