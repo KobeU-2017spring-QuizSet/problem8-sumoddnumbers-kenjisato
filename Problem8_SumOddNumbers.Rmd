@@ -5,6 +5,8 @@ date: "March 29, 2017"
 output: pdf_document
 ---
 
+# Introduction
+
 In this exercise, we will compute sum of odd numbers in an array. On `R`, you can check wheter a number is odd or prime by `%`.
 
 ```{r}
@@ -17,3 +19,7 @@ In this exercise, we will compute sum of odd numbers in an array. On `R`, you ca
 
 if `x%%2` returns `1`, x is an odd number.
 
+# Question
+- you have an array `OS <- as.integer(runif(100, min = 1, max = 99))`
+- write a code to sum the odd numbers in `OS`
+- wirte a short code as you can do
