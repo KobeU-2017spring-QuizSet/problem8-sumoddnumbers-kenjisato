@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Problem8: Sum Odd Numbers\"\nauthor: \"Akira MATSUI\"\ndate: \"March 29, 2017\"\noutput: pdf_document\n---\n\n# Introduction\n\nIn this exercise, we will compute sum of odd numbers in an array. On `R`, you can check wheter a number is odd or prime by `%`.\n\n```{r}\n a = 4\n b = 7\n\n a%%2\n b%%2\n```\n\nif `x%%2` returns `1`, x is an odd number.\n\n# Question\n- you have an array `OS <- as.integer(runif(100, min = 1, max = 99))`\n- write a code to sum the odd numbers in `OS`\n- wirte a short code as you can do",
+    "created" : 1490761968026.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3878956569",
+    "id" : "8F8A54AD",
+    "lastKnownWriteTime" : 1490762358,
+    "last_content_update" : 1490762358198,
+    "path" : "~/Dropbox/TA_Sato/Quiz/Problem8_SumOddNumbers/Problem8_SumOddNumbers.Rmd",
+    "project_path" : "Problem8_SumOddNumbers.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

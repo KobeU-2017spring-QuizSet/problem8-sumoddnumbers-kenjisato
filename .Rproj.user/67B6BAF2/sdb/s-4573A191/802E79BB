@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Problem8: Sum Odd Numbers\"\nauthor: \"Akira MATSUI\"\ndate: \"March 29, 2017\"\noutput: pdf_document\n---\n\n# Introduction\n\nIn this exercise, we will compute sum of odd numbers in an array. On `R`, you can check wheter a number is odd or prime by `%`.\n\n```{r}\n a = 4\n b = 7\n\n a%%2\n b%%2\n```\n\nif `x%%2` returns `1` it is an odd number.\n\n\n# Question\n- you have an array `OS <- as.integer(runif(100, min = 1, max = 99))`\n- write a code to sum the odd numbers in `OS`\n- wirte a short code as you can do\n\n## Sample Answer\n\n```{r}\n SumOddNumber_in <- function(OS){\n    N <- length(OS)\n    S <- 0\n    for(i in 1:N){\n      x <- OS[i]\n      if(x%%2) # When 1 is used as a bool type, it means `TRUE`.\n      S <- S + x\n     }\n    return(S)\n  }\n SO <- as.integer( runif(100, min = 1, max = 99))\n SumOddNumber_in(SO)\n```\n\nIf you want to write more simple code,\n\n\n```{r}\nSIMPLE_SumOddNumber_in <- function(OS){\n    return(sum(SO*(SO%%2)))\n  }\n SO <- as.integer( runif(100, min = 1, max = 99))\n SumOddNumber_in(SO)\n```\n\n\n\n\n",
+    "created" : 1490761040554.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2078825354",
+    "id" : "802E79BB",
+    "lastKnownWriteTime" : 1490762349,
+    "last_content_update" : 1490762349196,
+    "path" : "~/Dropbox/TA_Sato/Quiz/Problem8_SumOddNumbers/AnswerProblem8_SumOddNumbers.Rmd",
+    "project_path" : "AnswerProblem8_SumOddNumbers.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
